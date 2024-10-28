@@ -10,15 +10,19 @@ h2 {
     padding: 2em;
     background-color: rgb(51, 0, 102, 0.1);
 }
-.slika {
-    font-size: 0.9em;
+.slika  {
+    font-size: 0.8em;
     width: 40%;
     float: right;
     margin-left: 2em;
 }
+.slika p:last-child {
+    background-color: #cc0000;
+}
 .slika img {
     width: 100%;
     height: auto;
+    border-radius: 100%;
 }
 body {
     /*  Barva pisave pod značko oz. oznako  */
